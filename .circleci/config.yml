@@ -40,7 +40,7 @@ jobs:
 
   NodeJS 12:
     docker:
-    - image: cimg/node:12.22.1
+    - image: cimg/node:16.3.0
     steps:
       - common_test_steps
       # We will save the results of this one particular invocation to use in
@@ -55,13 +55,13 @@ jobs:
 
   NodeJS 14:
     docker:
-    - image: cimg/node:14.16.1
+    - image: cimg/node:16.3.0
     steps:
       - common_test_steps
 
   NodeJS 16:
     docker:
-    - image: cimg/node:16.0.0
+    - image: cimg/node:16.3.0
     steps:
       - common_test_steps
 
