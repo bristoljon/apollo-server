@@ -55,7 +55,7 @@ jobs:
 
   NodeJS 14:
     docker:
-    - image: cimg/node:14.16.1
+    - image: cimg/node:14.17.1
     steps:
       - common_test_steps
 
